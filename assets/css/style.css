@@ -1,0 +1,138 @@
+/* ================================================================================================
+// 	File Name: style.scss
+// 	Description: Style for customization.
+
+// ================================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+@font-face {
+    font-family: 'Genos';
+    src: url(../font/genos/fonts/ttf/Genos-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'Genos-Light';
+    src: url(../font/genos/fonts/ttf/Genos-Light.ttf);
+  }
+  @font-face {
+    font-family: 'Silk Serif';
+    src: url(../font/silk-serif/Silk\ Serif\ Light.otf);
+  }
+  @font-face {
+    font-family: 'Silk Serif Medium';
+    src: url(../font/silk-serif/Silk\ Serif\ Medium.otf);
+  }
+  .style-logo a{
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+ .search-container {
+    float: right;
+    background: #F3F3F3;
+  }
+  
+  .search-container input[type=text] {
+    
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    background: #F3F3F3;
+  }
+  
+ .search-container button {
+    float: right;
+    padding: 8px 2px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: transparent;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  .stylish-img img{
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  .stylish-name{
+    font-family: 'Silk Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  .profession{
+    font-family: 'Silk Serif';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000
+  }
+  .social-media-border{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  .term-policies{
+    font-family: 'Genos-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #686868;
+  }
+  .content-body h1{
+    font-family: 'Silk Serif Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+     color: #000000;
+  }
+  .content-body h3{
+    font-family: 'Silk Serif';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.quick-link img{
+    border: 1px solid #D9D9D9;
+    border-radius:50% ;
+    background: #D9D9D9;
+    padding: 5px;
+    height: 45px;
+}
