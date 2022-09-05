@@ -24,6 +24,12 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     font-family: 'Silk Serif Medium';
     src: url(../font/silk-serif/Silk\ Serif\ Medium.otf);
   }
+  .yellow-color{
+    color: #FFCB33 !important;
+  }
+  .grey-bg{
+    background-color: #ededed !important;
+  }
   .style-logo a{
     font-family: 'Genos';
     font-style: normal;
@@ -135,4 +141,218 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     background: #D9D9D9;
     padding: 5px;
     height: 45px;
+}
+#carouselExampleIndicators img{
+  width: 415px;
+}
+#carouselExampleIndicators h5{
+  font-family: 'Silk Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 104.1%;
+color: #FFFFFF;
+}
+#carouselExampleIndicators p{
+  font-family: 'Silk Serif';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 104.1%;
+color: #FFFFFF;
+}
+.carousel-caption button{
+  font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 7px;
+text-align: center;
+color: #000000;
+background: #FCFFEB;
+border-radius: 3px;
+border: transparent;
+}
+.carousel-item h1{
+  position: absolute;
+  top: 0;
+  font-family: 'Silk Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 104.1%;
+color: #FFFFFF;
+}
+.raise-bg{
+  background: #FAFAFA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 267px;
+}
+.raise-bg h1,.raise-bg-img h1{
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 104.1%;
+  color: #393939;
+}
+.raise-bg p, .raise-bg-img p{
+  font-family: 'Silk Serif';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 104.1%;
+color: #2D2D2D;
+}
+.raise-bg .btn, .raise-bg-img .btn{
+  background: #EDEDED;
+border-radius: 2px;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+color: #000000;
+}
+.raise-bg h2{
+  font-family: 'Genos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+   color: #3D3D3D;
+}
+.raise-bg h3{
+  font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #3D3D3D;
+}
+.raise-bg h4{
+  font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #00A82F;
+}
+.raise-bg-img img{
+  height: 267px;
+  /* position: absolute; */
+}
+.raise-bg-img h1, .raise-bg-img p{
+  color: #fff;
+}
+.text-over-img{
+  position: absolute;
+  bottom: 0;
+}
+#inbox{
+  background: #FFFDF7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#inbox h1{
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 104.1%;
+  color: #2B2B2B;
+}
+#inbox .form-control-borderless {
+  border: none;
+}
+#inbox .form-control{
+  background-color: transparent;
+  font-family: 'Silk Serif';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 25px;
+color: #7D8FB3;
+}
+
+#inbox .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+#inbox h2{
+  font-family: 'Silk Serif';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 25px;
+color: #7D8FB3;
+}
+#inbox h6{
+  font-family: 'Silk Serif';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+color: #4D5E80;
+}
+#inbox h4, #inbox h5{
+  font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 25px;
+color: #29CC39;
+}
+#inbox h5{
+  color: #7D8FB3;
+}
+#inbox .img-1{
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  position: relative;
+}
+.navigate{
+    position: absolute;
+    top: -7px;
+    color: #fff;
+    left: 53px;
+    background: #D50000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+.show-more{
+  font-family: 'Silk Serif';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #6B7A99;
+flex: none;
+order: 0;
+flex-grow: 0;
+background: #FFFFFF;
+border: 2px solid #F5F6F7;
+box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
+border-radius: 5px;
+}
+.support{
+  font-family: 'Silk Serif' !important;
+font-style: normal;
+font-weight: 600 !important;
+font-size: 13px !important;
+line-height: 25px;
+color: #7D8FB3 !important;
+}
+#style-news h1{
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
 }

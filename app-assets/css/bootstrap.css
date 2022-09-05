@@ -5927,8 +5927,8 @@ a.close.disabled {
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 33px;
+  /* bottom: 0; */
   z-index: 1;
   display: -webkit-box;
   display: -webkit-flex;
@@ -5969,10 +5969,10 @@ a.close.disabled {
     opacity: 0.9; }
 
 .carousel-control-prev {
-  left: 0; }
+  right: 32px; }
 
 .carousel-control-next {
-  right: 0; }
+  right: -30px; }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
