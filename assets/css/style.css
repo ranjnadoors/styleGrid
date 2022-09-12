@@ -373,6 +373,7 @@ border-radius: 0px 30px 30px 0px;
   max-width: 100%;
   height: 509px;
   max-height: 100%;
+  background: linear-gradient(179.86deg, rgba(255, 255, 255, 0) 22%, rgba(0, 0, 0, 0.7) 99.88%);
 }
 #onePagecarousel .carousel-control-prev {
   right: 80px;
@@ -398,3 +399,317 @@ color: #FFFFFF;
   padding-bottom: 20px;
   color: #fff;
 }
+#browse-soursing h1{
+  font-family: 'Silk Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
+color: #000000;
+}
+#browse-soursing h2{
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #7B7B7B;
+  display: flex;
+  align-items: center;
+}
+.browse-btn{
+  display: flex;
+align-items: center;
+
+}
+#browse-soursing .browse{
+  font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+padding: 8px 0px;
+border: transparent;
+text-align: center;
+color: #000000;
+background: #EDEDED;
+border-radius: 2px;
+}
+#browse-soursing .table thead{
+  background: #FFFFFF;
+/* border-bottom: 1.5px solid #4D4D4D; */
+}
+#browse-soursing .table thead th{
+  font-family: 'Genos';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.table th{
+  border: none;
+}
+#browse-soursing .table tbody td{
+  font-family: 'Genos';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+#browse-soursing .table tbody td button{
+  background: #00A82F;
+border-radius: 2px;
+font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+color: #FFFFFF;
+border: transparent;
+width: 83px;
+height: 19px;
+}
+.green-color{
+  color: #00A82F !important;
+}
+.blue-color{
+color: #0029FF !important;
+}
+.ticket-btn{
+  background: #9D9D9D !important;
+}
+.dot{
+  display: list-item; /* This has to be "list-item"                                          */
+    margin-left : 1em;
+    color: #00A82F;
+}
+#browse-soursing .table th, .table td{
+  border-top:1px solid #E2E2E2  !important;
+  background: #FFFFFF !important;
+  border-bottom: 1.5px solid #E2E2E2 !important;
+}
+#browse-soursing .table{
+  border: 1px solid #E2E2E2;
+  border-radius: 5px;
+}
+.show-bg img{
+  height: 30px;
+  width: 30px;
+  background: #FFFFFF;
+  border: 2px solid #F5F6F7;
+  box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
+  border-radius: 100px;
+  padding: 5px;
+}
+#browse-soursing .show{
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7B7B7B;
+  }
+  #notice-board span{
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.45299px;
+    line-height: 11px;
+    text-align: center;
+    color: #000000;
+  }
+  #notice-board h1{
+    font-family: 'Silk Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37.812px;
+    line-height: 104.1%;
+    color: #282828;
+  }
+  #notice-board img{
+    height: 100px;
+    width: 100px;
+  }
+  #notice-board p{
+    font-family: 'Silk Serif';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.755px;
+    line-height: 104.1%;
+    color: #282828;
+    }
+    #board-detail .row{
+      background-color: #fff;
+    }
+    #board-detail span{
+      font-family: 'Silk Serif';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 104.1%;
+      color: #282828;
+    }
+    #board-detail h1{
+      font-family: 'Silk Serif';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15.755px;
+      line-height: 104.1%;
+      color: #282828;
+    }
+    #board-detail p{
+      font-family: 'Silk Serif';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 104.1%;
+      color: #282828;
+    }
+     .raise-bg_1{
+      background: #FAFAFA;
+      box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+      height: auto !important;
+    }
+    #refer-client{
+      background-image: url(../images/refer-client-bg.svg);
+      background-size: cover;
+      background-position: top;
+    }
+    #refer-client h1{
+      font-family: 'Silk Serif';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 37.812px;
+      line-height: 104.1%;
+      color: #FFFFFF;
+    }
+    #refer-client p{
+      font-family: 'Silk Serif';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 132.3%;
+      color: #FFFFFF;
+    }
+    #refer-client .refer-btn{
+      font-family: 'Genos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15.2632px;
+      line-height: 18px;
+      text-align: center;
+      color: #000000;
+      background: #EDEDED;
+      border-radius: 3.05263px;
+      border: transparent;
+    }
+    #refer-client h2{
+      font-family: 'Silk Serif';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 132.3%;
+      text-align: right;
+      text-decoration-line: underline;
+      color: #FFFFFF;
+    }
+    #footer{
+      background: #172625;
+    }
+    #footer h1{
+      font-family: 'Genos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48.9px;
+      line-height: 59px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    #footer a, #footer h5{
+      font-family: 'Genos';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16.3px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+    }
+    #footer h5{
+      font-weight: 500;
+    }
+    #footer p{
+      font-family: 'Genos';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24.45px;
+      line-height: 29px;
+      text-align: center;
+      width: 75%;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+    }
+    .talk-stylish{
+      font-family: 'Genos';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16.3px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      background: #172625;
+      border: 1px solid #fff;
+    }
+    .brands img{
+      border: 1px solid #D9D9D9;
+      border-radius:5px ;
+      background: #F8F8F8;
+      padding: 5px;
+      height: 45px;
+  }
+  hr{
+    margin: 20px 50px;
+border: 0.509375px solid #FFFFFF;
+  }
+  #footer h4{
+    font-family: 'Genos';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.2625px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  #twoPagecarousel img{
+    width: 415px;
+    height: 351px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(179.86deg, rgba(255, 255, 255, 0) 22%, rgba(0, 0, 0, 0.7) 99.88%);
+      }
+      #twoPagecarousel .carousel-caption h5{
+        font-family: 'Silk Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 104.1%;
+        color: #FFFFFF;
+      }
+      #twoPagecarousel .carousel-caption  p{
+        font-family: 'Silk Serif';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 104.1%;
+        color: #FFFFFF;
+      }
