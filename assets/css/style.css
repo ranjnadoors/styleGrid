@@ -45,7 +45,12 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
   letter-spacing: 0.04em;
   color: #000000;
 }
-
+.style-logo .logo1{
+  height: 35px;
+}
+.style-logo .logo2{
+  height: 15px;
+}
 .search-container {
   float: right;
   background: #F3F3F3;
