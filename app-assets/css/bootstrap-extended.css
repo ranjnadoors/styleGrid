@@ -856,7 +856,7 @@ select.form-control {
 .navbar-header {
   height: 100%;
   width: 260px;
-  height: 5rem;
+  height: 3rem;
   z-index: 9;
   position: relative;
   padding: 0rem 0.85rem;
