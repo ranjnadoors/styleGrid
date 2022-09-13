@@ -88,13 +88,27 @@
         </div>
 
         <div class="main-menu-content">
-            <div class="text-center">
-                <div class="stylish-img"><img src="app-assets/images/gallery/stylist.svg" class="img-fluid" alt="">
-                </div>
-                <h2 class="stylish-name">Max Melia</h2>
-                <h3 class="profession">Stylist</h3>
-            </div>
+
             <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <!-- <ul class="float-left mr-auto row">
+                    <li class="px-1 py-2"><a href=""><img src="app-assets/images/icons/User.svg" alt=""></a></li>
+                    <li class=" py-2"><a href=""><img src="app-assets/images/icons/Bell.svg" alt=""></a></li>
+                </ul>
+                <ul class="float-right ml-auto row">
+                    <li class="px-1 py-2"><a href=""><img src="app-assets/images/icons/Gear.svg" alt=""></a></li>
+                    <li class=" py-2"><a href=""><img src="app-assets/images/icons/Help.svg" alt=""></a></li>
+                </ul> -->
+                <li class="nav-item text-center">
+                    <div class="stylish-img"><img src="app-assets/images/gallery/stylist.svg" class="img-fluid" alt="">
+                    </div>
+
+                <li class="nav-item"><a href="" class="py-0 pl-3"><i class="box-shadow"></i><span class="menu-title"
+                            data-i18n="">
+                            <h2 class="stylish-name">Max Melia</h2>
+                        </span></a> </li>
+                <li class="nav-item"><a href="" class="py-0 pl-5"><i class="box-shadow"></i><span
+                            class="menu-title profession" data-i18n="">Stylist</span></a> </li>
+                </li>
                 <li class=" nav-item"><a href="index.html"><i class="ft-home"></i><span class="menu-title"
                             data-i18n="">Home</span></a>
                 </li>
@@ -159,14 +173,14 @@
             </div>
             <div class="content-body">
                 <!-- Revenue, Hit Rate & Deals -->
-                <div class="row mt-5">
+                <div class="row my-3">
                     <div class="col-lg-8 col-md-12">
                         <h1>Good morning Max.</h1>
                         <h3>Check out your stylist summary dashboard.</h3>
                     </div>
-                    <div class="col-lg-4 col-md-12 quick-link text-center">
-                        <span>Quick Link</span>
-                        <div class="row justify-content-center my-2">
+                    <div class="col-lg-4 col-md-12 quick-link text-right">
+                        <span class="mr-5"><a hrf="">Quick Link</a></span>
+                        <div class="row justify-content-end my-2">
                             <a href="" class="mx-1"><img src="app-assets/images/icons/Chat.svg" alt=""></a>
                             <a href="" class="mx-1"><img src="app-assets/images/icons/File Invoice.svg" alt=""></a>
                             <a href="" class="mx-1"><img src="app-assets/images/icons/Gear.svg" alt=""></a>
@@ -177,109 +191,76 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8">
-                        <!---------------carousel------------------->
-                        <div id="twoPagecarousel" class="carousel slide" data-ride="carousel">
-                            <!-- <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol> -->
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-6  img-width">
+                                <img class="mr-4" src="app-assets/images/gallery/img-1.png" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block text-left">
+                                    <button class="px-2 py-1">Style</button>
+                                    <h5 class="my-1">Create a new StyleGrid</h5>
                                     <div class="row">
-                                        <div class="col-6 px-2">
-                                            <img class="" src="app-assets/images/gallery/1.jpg" alt="First slide"
-                                                class="">
-                                            <div class="carousel-caption d-none d-md-block text-left">
-                                                <button class="px-2 py-1">Style</button>
-                                                <h5 class="my-1">Create a new StyleGrid</h5>
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <p class="">Style a new look for your clients.</p>
-                                                    </div>
-                                                    <div class="text-right col">
-                                                        <button class="py-1 px-2 grey-bg">Create Grid</button>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="col">
+                                            <p class="">Style a new look for your clients.</p>
                                         </div>
-                                        <div class="col-6 px-2">
-                                            <img class="" src="app-assets/images/gallery/11.jpg" alt="Second slide"
-                                                class="">
-                                            <h1 class="px-2 py-2">Pablo’s Ibiza<br> Grid</h1>
-                                            <div class="carousel-caption d-none d-md-block text-left">
-
-                                                <h5 class="my-1">Your Recent Grids</h5>
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <p class="">Jump to your most recently created StyleGrids.</p>
-                                                    </div>
-                                                    <div class="text-right col">
-                                                        <button class="py-1 px-2 grey-bg">Go to Grid</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item ">
-                                    <div class="row">
-                                        <div class="col-6 px-2">
-                                            <img class="" src="app-assets/images/gallery/12.jpg" alt="First slide"
-                                                class="">
-                                            <div class="carousel-caption d-none d-md-block text-left">
-                                                <button class="px-2 py-1">Style</button>
-                                                <h5 class="my-1">Create a new StyleGrid</h5>
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <p class="">Style a new look for your clients.</p>
-                                                    </div>
-                                                    <div class="text-right col">
-                                                        <button class="py-1 px-2 grey-bg">Create Grid</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6 px-2">
-                                            <img class="" src="app-assets/images/gallery/13.jpg" alt="Second slide"
-                                                class="">
-                                            <h1 class="px-2 py-2">Pablo’s Ibiza<br> Grid</h1>
-                                            <div class="carousel-caption d-none d-md-block text-left">
-
-                                                <h5 class="my-1">Your Recent Grids</h5>
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <p class="">Jump to your most recently created StyleGrids.</p>
-                                                    </div>
-                                                    <div class="text-right col">
-                                                        <button class="py-1 px-2 grey-bg">Go to Grid</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item ">
-                                    <div class="row">
-                                        <div class="col-6 px-2">
-                                            <img class="" src="app-assets/images/gallery/13.jpg" alt="First slide"
-                                                class="">
-                                        </div>
-                                        <div class="col-6 px-2">
-                                            <img class="" src="app-assets/images/gallery/14.jpg" alt="Second slide"
-                                                class="">
+                                        <div class="text-right col">
+                                            <button class="py-1 px-2 grey-bg">Create Grid</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#twoPagecarousel" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#twoPagecarousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
+
+
+                            <!---------------carousel------------------->
+                            <div class="col-6">
+                                <div id="twoPagecarousel" class="carousel slide " data-ride="carousel">
+
+                                    <!-- <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol> -->
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+                                            <div class="px-2">
+                                                <img class="" src="app-assets/images/gallery/caro1.svg"
+                                                    alt="Second slide" class="">
+                                                <h1 class="px-2 py-2">Pablo’s <br>Ibiza Grid</h1>
+                                                <div class="carousel-caption d-none d-md-block text-left">
+
+                                                    <h5 class="my-1">Your Recent Grids</h5>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <p class="">Jump to your most recently created StyleGrids.
+                                                            </p>
+                                                        </div>
+                                                        <div class="text-right col">
+                                                            <button class="py-1 px-2 grey-bg">Go to Grid</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <div class=" px-2">
+                                                <img class="" src="app-assets/images/gallery/caro1.svg"
+                                                    alt="First slide" class="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#twoPagecarousel" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#twoPagecarousel" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                            </div>
                         </div>
                         <!---------------end of carousel------------------->
                         <!-----------make request-------->
@@ -287,7 +268,8 @@
                             <div class="col-lg-4  ">
                                 <div class="raise-bg px-1 py-1">
                                     <h1 class="">Raise An Invoice</h1>
-                                    <p class="">Create and send an invoice to your clients for their latest order.</p>
+                                    <p class="">Create and send an invoice to your clients for their latest order.
+                                    </p>
                                     <div class="row">
                                         <div class="col">
                                             <a href=""><button class="btn">Raise Invoice</button></a>
@@ -323,7 +305,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="raise-bg-img">
-                                    <img src="app-assets/images/gallery/1.jpg" class="img-fluid" alt="">
+                                    <img src="app-assets/images/gallery/lady-with-beg.svg" class="img-fluid" alt="">
                                     <div class="text-over-img px-2 py-2">
                                         <h1>Make a sourcing request</h1>
                                         <p>Make or fufill luxury item source requests.</p>
@@ -332,6 +314,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <!-----------end of make request-------->
                     </div>
@@ -471,7 +454,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div><a href=""><button class="show-more px-2 py-1">Show More Channels</button></a></div>
+                            <div><a href=""><button class="show-more px-2 py-1">Show More Channels</button></a>
+                            </div>
                             <div class=" mx-2"><a href="">
                                     <h6 class="support">Contact Support</h6>
                                 </a></div>
@@ -514,12 +498,12 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div id="TabContent" class="tab-content my-2">
+                        <div id="TabContent" class="tab-content mt-2">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <div id="onePagecarousel" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block " src="app-assets/images/gallery/10.jpg"
+                                            <img class="d-block " src="app-assets/images/gallery/best-bedroom.svg"
                                                 alt="First slide">
                                             <div class="carousel-caption d-none d-md-block text-left w-100">
 
@@ -631,7 +615,8 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="d-flex"><span class="dot"></span>Hermes Mini Kelly 22</td>
+                                                <td class="d-flex"><span class="dot"></span>Hermes Mini Kelly 22
+                                                </td>
                                                 <td>N/A</td>
                                                 <td>@Beg</td>
                                                 <td>Hermes</td>
@@ -641,7 +626,8 @@
                                                 <td><button class="px-2">Fufill</button></td>
                                             </tr>
                                             <tr>
-                                                <td class="d-flex"><span class="dot"></span>Hermes Mini Kelly 22</td>
+                                                <td class="d-flex"><span class="dot"></span>Hermes Mini Kelly 22
+                                                </td>
                                                 <td>N/A</td>
                                                 <td>@Beg</td>
                                                 <td>Hermes</td>
@@ -651,7 +637,8 @@
                                                 <td><button class="px-2">Fufill</button></td>
                                             </tr>
                                             <tr>
-                                                <td class="d-flex"><span class="dot"></span>Hermes Mini Kelly 22</td>
+                                                <td class="d-flex"><span class="dot"></span>Hermes Mini Kelly 22
+                                                </td>
                                                 <td>N/A</td>
                                                 <td>@Beg</td>
                                                 <td>Hermes</td>
@@ -661,7 +648,8 @@
                                                 <td><button class="px-2">Fufill</button></td>
                                             </tr>
                                             <tr>
-                                                <td class="d-flex"><span class="dot"></span>Hermes Mini Kelly 22</td>
+                                                <td class="d-flex"><span class="dot"></span>Hermes Mini Kelly 22
+                                                </td>
                                                 <td>N/A</td>
                                                 <td>@Beg</td>
                                                 <td>Hermes</td>
@@ -675,7 +663,8 @@
                                     </table>
                                 </div>
                                 <div class="d-flex">
-                                    <div class="show-bg"><img src="app-assets/images/icons/show-more.svg" alt=""></div>
+                                    <div class="show-bg"><img src="app-assets/images/icons/show-more.svg" alt="">
+                                    </div>
                                     <span class="show px-1">See more</span>
                                 </div>
                             </div>
@@ -731,7 +720,8 @@
                                 <div class="col-md-6">
                                     <div class="raise-bg px-1 py-1">
                                         <h1 class="">Reviews</h1>
-                                        <p class="">Request positive client reviews to build your profile and get more
+                                        <p class="">Request positive client reviews to build your profile and get
+                                            more
                                             clients.</p>
                                         <div class="row">
                                             <div class="col">
@@ -985,7 +975,8 @@
                             <p>Shop luxury brands. Talk to the best fashion & interior stylists. Source the most
                                 in-demand products.</p>
                         </div>
-                        <a href="" class="mt-2"><button class="talk-stylish py-1 px-2">Talk to a stylist</button></a>
+                        <a href="" class="mt-2"><button class="talk-stylish py-1 px-2">Talk to a
+                                stylist</button></a>
                     </div>
                     <hr>
                     <div class="row justify-content-center mt-5" class="brands">

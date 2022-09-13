@@ -45,16 +45,21 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
   }
   
   .search-container input[type=text] {
-    
-    margin-top: 8px;
-    font-size: 17px;
+    font-family: 'Silk Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
     border: none;
-    background: #F3F3F3;
+    background: #f3f3f3;
+    color: #686868;
+    height: 36px;
+    padding: 15px 0px;
   }
   
  .search-container button {
     float: right;
-    padding: 8px 2px;
+    padding: 0px 2px;
     margin-top: 8px;
     margin-right: 16px;
     background-color: transparent;
@@ -96,6 +101,7 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     line-height: 24px;
     text-align: center;
     color: #000000;
+    padding: 0px !important;
   }
   .profession{
     font-family: 'Silk Serif';
@@ -104,7 +110,8 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     font-size: 12px;
     line-height: 18px;
     text-align: center;
-    color: #000000
+    color: #000000;
+    padding: 0px !important;
   }
   .social-media-border{
     border: 1px solid #ccc;
@@ -134,6 +141,16 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     font-size: 24px;
     line-height: 36px;
     color: #000000;
+}
+.quick-link a{
+  font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+text-decoration-line: underline !important;
+color: #000000 !important;
 }
 .quick-link img{
     border: 1px solid #D9D9D9;
@@ -214,6 +231,7 @@ font-size: 10px;
 line-height: 12px;
 text-align: center;
 color: #000000;
+padding: 0.75rem 0.9rem !important;
 }
 .raise-bg h2{
   font-family: 'Genos';
@@ -222,6 +240,7 @@ color: #000000;
   font-size: 16px;
   line-height: 19px;
    color: #3D3D3D;
+   padding-top: 10px;
 }
 .raise-bg h3{
   font-family: 'Genos';
@@ -240,8 +259,10 @@ line-height: 19px;
 color: #00A82F;
 }
 .raise-bg-img img{
-  height: 267px;
-  /* position: absolute; */
+  height: 279px;
+  /* height: 120%; */
+  width: 266px;
+  position: absolute;
 }
 .raise-bg-img h1, .raise-bg-img p{
   color: #fff;
@@ -391,9 +412,9 @@ color: #FFFFFF;
 }
 #onePagecarousel .carousel-caption{
   position: absolute;
-  right: 10%;
+  /* right: 10%; */
   bottom: 20px;
-  left: 10%;
+  left: 7%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -690,6 +711,12 @@ border: 0.509375px solid #FFFFFF;
     letter-spacing: 0.04em;
     color: #FFFFFF;
   }
+  .img-width img{
+    width: 433px;
+    height: 351px;
+    left: 0px;
+    top: 0px;
+  }
   #twoPagecarousel img{
     width: 415px;
     height: 351px;
@@ -697,7 +724,7 @@ border: 0.509375px solid #FFFFFF;
     top: 0px;
     background: linear-gradient(179.86deg, rgba(255, 255, 255, 0) 22%, rgba(0, 0, 0, 0.7) 99.88%);
       }
-      #twoPagecarousel .carousel-caption h5{
+      #twoPagecarousel .carousel-caption h5, .img-width h5{
         font-family: 'Silk Serif';
         font-style: normal;
         font-weight: 400;
@@ -705,11 +732,28 @@ border: 0.509375px solid #FFFFFF;
         line-height: 104.1%;
         color: #FFFFFF;
       }
-      #twoPagecarousel .carousel-caption  p{
+      #twoPagecarousel .carousel-caption p, .img-width p{
         font-family: 'Silk Serif';
         font-style: normal;
         font-weight: 300;
         font-size: 10px;
         line-height: 104.1%;
         color: #FFFFFF;
+      }
+      #twoPagecarousel .carousel-control-next-icon{
+margin-right: 22px !important;
+      }
+      .img-width.carousel-caption{
+        position: absolute;
+        right: 2% !important;
+        bottom: 20px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+      }
+      .box-shadow{
+        box-shadow: none !important;
+        -webkit-box-shadow:none !important;
       }

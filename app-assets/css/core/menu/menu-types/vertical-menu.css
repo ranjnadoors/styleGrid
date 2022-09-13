@@ -112,8 +112,8 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu {
     box-shadow: 0px 0px 10px black; }
   body.vertical-layout.vertical-menu.menu-expanded .main-menu.menu-dark .navigation .hover > a > i, body.vertical-layout.vertical-menu.menu-expanded .main-menu.menu-dark .navigation:hover > a > i,
   body.vertical-layout.vertical-menu.menu-expanded .main-menu.menu-dark .navigation .open > a > i {
-    -webkit-box-shadow: 0px 0px 20px rgba(253, 99, 107, 0.3);
-    box-shadow: 0px 0px 20px rgba(253, 99, 107, 0.3); }
+    -webkit-box-shadow: linear-gradient(90.55deg, #00A82F 31%, #0094FF 72.21%);
+    box-shadow: linear-gradient(90.55deg, #00A82F 31%, #0094FF 72.21%); }
 
 body.vertical-layout.vertical-menu.menu-expanded .content,
 body.vertical-layout.vertical-menu.menu-expanded .footer {
