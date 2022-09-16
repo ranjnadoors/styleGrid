@@ -449,7 +449,15 @@ footer.footer-dark {
 .main-menu.menu-light .navigation>li.hover>a,
 .main-menu.menu-light .navigation>li:hover>a,
 .main-menu.menu-light .navigation>li.active>a {
-  color: #00a82f;
+  /* font-family: 'Genos';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center; */
+
+
+text-fill-color: transparent;
 }
 
 .main-menu.menu-light .navigation>li.hover>a>span,
@@ -460,6 +468,10 @@ footer.footer-dark {
   -ms-transform: translateX(4px);
   -o-transform: translateX(4px);
   transform: translateX(4px);
+  background: linear-gradient(90.55deg, #00A82F 31%, #0094FF 72.21%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
 }
 
 .main-menu.menu-light .navigation>li.hover>a.mm-next,

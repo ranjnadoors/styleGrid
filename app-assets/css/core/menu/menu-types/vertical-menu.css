@@ -96,8 +96,11 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12); }
   body.vertical-layout.vertical-menu.menu-expanded .main-menu.menu-light .navigation .hover > a > i, body.vertical-layout.vertical-menu.menu-expanded .main-menu.menu-light .navigation:hover > a > i,
   body.vertical-layout.vertical-menu.menu-expanded .main-menu.menu-light .navigation .open > a > i {
-    -webkit-box-shadow: 0px 0px 20px rgba(253, 99, 107, 0.3);
-    box-shadow: 0px 0px 20px rgba(253, 99, 107, 0.3); }
+    background: linear-gradient(90.55deg, #00A82F 31%, #0094FF 72.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; }
+
   body.vertical-layout.vertical-menu.menu-expanded .main-menu.menu-dark .navigation > li > a > i {
     display: inline-block;
     margin-right: 20px;
