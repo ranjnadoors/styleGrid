@@ -104,8 +104,8 @@
                 <li class=" nav-item"><a href="#"><i class="ft-layers"></i><span class="menu-title"
                             data-i18n="">Messenger</span></a>
                 </li>
-                <li class=" nav-item"><a href="#"><i class="ft-monitor"></i><span class="menu-title"
-                            data-i18n="">Grids</span></a>
+                <li class=" nav-item"><a href="#" class="active"><i class="ft-monitor active"></i><span
+                            class="menu-title" data-i18n="">Grids</span></a>
                 </li>
                 <li class=" nav-item"><a href="#"><i class="ft-layout"></i><span class="menu-title"
                             data-i18n="">Payments</span></a>
@@ -164,8 +164,8 @@
                 <!-- Revenue, Hit Rate & Deals -->
                 <div class="row my-3">
                     <div class="col-lg-8 col-md-12">
-                        <h1>Submit sourcing request</h1>
-                        <h3>Upload an image and add product details of what you need.</h3>
+                        <h1>Let’s get styling.</h1>
+                        <h3>Create a new StyleGrid and send to your clients via PDF or weblink.</h3>
                     </div>
                     <div class="col-lg-4 col-md-12 quick-link text-right">
                         <span class="mr-5"><a hrf="">Quick Link</a></span>
@@ -179,99 +179,131 @@
                     </div>
                 </div>
                 <!-------------------- fulfil souring request--------->
-                <div id="browse-soursing" class="mt-5">
+                <div id="create-grid" class="mt-5">
                     <div class="row">
-                        <div class="col-lg-8">
-                            <div class="row  text-aligns-center">
-                                <h1 class="col-6">Hermes Mini Kelly 20</h1>
-                                <h2 class="px-2 mt-1 col-2">Hermes</h2>
-                                <a href="" class=" col-4 text-right"><button class="request-btn px-3 py-1">Make
-                                        Request</button></a>
-                            </div>
-                        </div>
-                        <!-- Pills navs -->
-                        <div class="col-lg-4 d-flex justify-content-end">
-                            <ul id="myTab_1" role="tablist" class="nav nav-tabs   flex-sm-row text-center  rounded-nav">
-                                <li class="nav-item ">
-                                    <a id="home-tab" data-toggle="tab" href="#home_1" role="tab" aria-controls="home"
-                                        aria-selected="true"
-                                        class="nav-link border-0 cyan-blue  font-weight-bold">Home</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a id="Fashion-tab" data-toggle="tab" href="#Fashion_1" role="tab"
-                                        aria-controls="Fashion" aria-selected="false"
-                                        class="nav-link border-0 cyan-blue font-weight-bold active ">Fashion</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a id="Beauty-tab" data-toggle="tab" href="#Beauty_1" role="tab"
-                                        aria-controls="Beauty" aria-selected="false"
-                                        class="nav-link border-0 cyan-blue font-weight-bold ">Beauty</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a id="Travel-tab" data-toggle="tab" href="#Travel_1" role="tab"
-                                        aria-controls="Travel" aria-selected="false"
-                                        class="nav-link border-0 cyan-blue font-weight-bold">Travel</a>
-                                </li>
+                        <div class="col-11">
+                            <div class="grid-bg m-4 p-4">
+                                <h1>STYLEGRID</h1>
+                                <div class="row">
+                                    <div class="col-6 d-flex align-items-center">
+                                        <input type="text" placeholder="Name your grid here..." class="w-100">
 
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row align-items-center" id="fulfill-request">
-                        <div class="col-md-6 ">
-                            <div class="Neon Neon-theme-dragdropbox mt-5">
-                                <input name="files[]" id="filer_input2" multiple="multiple" type="file">
-                                <div class="Neon-input-dragDrop py-5 px-4">
-                                    <div class="Neon-input-inner">
-                                        <div class="Neon-input-icon"><i class="fa fa-file-image-o"></i></div>
-                                        <div class="Neon-input-text">
-                                            <h3>Upload an image of the product here</h3>
-                                        </div><a class="Neon-input-choose-btn blue"><img src="app-assets/images/icons/plus.png" alt=""></a>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="Neon Neon-theme-dragdropbox mt-5">
+                                            <input name="files[]" id="filer_input2" multiple="multiple" type="file">
+                                            <div class="Neon-input-dragDrop py-5 px-4">
+                                                <div class="Neon-input-inner">
+                                                    <div class="Neon-input-icon"><i class="fa fa-file-image-o"></i>
+                                                    </div>
+                                                    <div class="Neon-input-text">
+                                                        <h3>Add your feature image here...</h3>
+                                                    </div><a class="Neon-input-choose-btn blue"><img
+                                                            src="app-assets/images/icons/plus.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="p-3">
-                                <form id="submit-request" action="request-submit.html">
-                                    <div class="form-group">
-                                        <label for="">Enter the name of the product here:</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
-                                            placeholder="Enter product name...">
+                        <div class="col-1 my-auto ">
+                            <div class="blue-bg mt-2">1</div>
+                            <div class="gradiant-bg text-center mt-1"><span>2</span></div>
+                            <div class="gradiant-bg text-center mt-1"><span>3</span></div>
+                            <div class="gradiant-bg text-center mt-1"><span><img src="app-assets/images/icons/plus.png"
+                                        class="img-fluid" alt=""></div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11">
+                            <div class="grid-bg mx-4 p-4 mb-4">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h1>STYLEGRID</h1>
+                                    </div>
+                                    <div class="col-4 text-right"><img src="app-assets/images/icons/Empty-Trash.png"
+                                            class="img-fluid" alt=""></div>
+                                </div>
+                                <div class="row add-item">
+                                    <div class="col-6 d-flex align-items-center">
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <div class="Neon Neon-theme-dragdropbox mt-5">
+                                                    <input name="files[]" id="filer_input2" multiple="multiple"
+                                                        type="file">
+                                                    <div class="Neon-input-dragDrop ">
+                                                        <div class="Neon-input-inner">
+                                                            <div class="Neon-input-icon"><i
+                                                                    class="fa fa-file-image-o"></i>
+                                                            </div>
+                                                            <div class="Neon-input-text">
+                                                                <h3>Add an item here</h3>
+                                                            </div><a class="Neon-input-choose-btn blue"><img
+                                                                    src="app-assets/images/icons/plus.png" alt=""></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-5">
+                                                <div class="Neon Neon-theme-dragdropbox mt-5">
+                                                    <input name="files[]" id="filer_input2" multiple="multiple"
+                                                        type="file">
+                                                    <div class="Neon-input-dragDrop">
+                                                        <div class="Neon-input-inner">
+                                                            <div class="Neon-input-icon"><i
+                                                                    class="fa fa-file-image-o"></i>
+                                                            </div>
+                                                            <div class="Neon-input-text">
+                                                                <h3>Add an item here</h3>
+                                                            </div><a class="Neon-input-choose-btn blue"><img
+                                                                    src="app-assets/images/icons/plus.png" alt=""></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2 px-0">
+                                                <div class="Neon Neon-theme-dragdropbox mt-2">
+                                                    <input name="files[]" id="filer_input2" multiple="multiple"
+                                                        type="file">
+                                                    <div class="Neon-input-dragDrop no-border p-0">
+                                                        <div class="Neon-input-inner">
+                                                            <div class="Neon-input-icon"><i
+                                                                    class="fa fa-file-image-o"></i>
+                                                            </div>
+                                                            <div class="Neon-input-text d-flex">
+                                                                <a class="Neon-input-choose-btn blue"><img
+                                                                        src="app-assets/images/icons/plus.png"
+                                                                        alt=""></a>
+                                                                <h3 class="mt-2">Add another block</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="">Tell us the brand of the product:</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
-                                            placeholder="Enter brand name...">
-
+                                    <div class="col-6 px-5">
+                                        <div class="Neon Neon-theme-dragdropbox mt-5">
+                                            <input name="files[]" id="filer_input2" multiple="multiple" type="file">
+                                            <div class="Neon-input-dragDrop py-5 px-4">
+                                                <div class="Neon-input-inner">
+                                                    <div class="Neon-input-icon"><i class="fa fa-file-image-o"></i>
+                                                    </div>
+                                                    <div class="Neon-input-text">
+                                                        <h3>Add your feature image here...</h3>
+                                                    </div><a class="Neon-input-choose-btn blue"><img
+                                                            src="app-assets/images/icons/plus.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="">What is the product type? (Bag, Dress, Heels etc)</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
-                                            placeholder="Enter product type...">
-
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Does the product have a size? Leave blank if none.</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
-                                            placeholder="Enter product size...">
-
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">What region the product needs to be delivered to:</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
-                                            placeholder="Enter region...">
-
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">When do you require the product by?</label>
-                                        <input type="text" class="form-control" id="" placeholder="Enter due date...">
-                                    </div>
-                                    <a href="request-submit.html">
-                                        <button type="submit" class="submit-request px-3 py-1 mt-2">Submit
-                                            request</button></a>
-                                </form>
+                                </div>
                             </div>
+                        </div>
+                        <div class="col-1">
 
                         </div>
                     </div>

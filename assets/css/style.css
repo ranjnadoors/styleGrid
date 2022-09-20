@@ -867,7 +867,6 @@
   line-height: 21px;
   color: #6D6D6D;
 }
-
 ::placeholder {
   font-family: 'Silk Serif';
   font-style: normal;
@@ -962,27 +961,30 @@
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
-#submit-request label{
+
+#submit-request label {
   font-family: 'Silk Serif';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
 }
-.submit-request{
+
+.submit-request {
   background: #2E4836;
-border-radius: 3.15789px;
-font-family: 'Genos';
-font-style: normal;
-font-weight: 400;
-font-size: 15.7895px;
-line-height: 19px;
-text-align: center;
-color: #FFFFFF;
-border: none;
+  border-radius: 3.15789px;
+  font-family: 'Genos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7895px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
 }
-#request-submit h1{
+
+#request-submit h1 {
   font-family: 'Silk Serif';
   font-style: normal;
   font-weight: 400;
@@ -991,28 +993,31 @@ border: none;
   text-align: center;
   color: #000000;
 }
-#request-submit h3{
+
+#request-submit h3 {
   font-family: 'Silk Serif';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-color: #000000;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
 }
-.back-dashboard{
+
+.back-dashboard {
   font-family: 'Genos';
-font-style: normal;
-font-weight: 400;
-font-size: 15.7895px;
-line-height: 19px;
-text-align: center;
-border: none;
-color: #000000;
-background: #EDEDED;
-border-radius: 3.15789px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7895px;
+  line-height: 19px;
+  text-align: center;
+  border: none;
+  color: #000000;
+  background: #EDEDED;
+  border-radius: 3.15789px;
 }
-#filer_input2{
+
+#filer_input2 {
   z-index: 999;
   opacity: 0;
   width: 320px;
@@ -1024,14 +1029,15 @@ border-radius: 3.15789px;
   margin-left: auto;
   cursor: pointer;
 }
-.Neon-input-text h3{
+
+.Neon-input-text h3 {
   font-family: 'Silk Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 19.2px;
-line-height: 29px;
-text-align: center;
-color: #8D8D8D;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 29px;
+  text-align: center;
+  color: #8D8D8D;
 }
 
 /******************end of submit sourcing request***********/
@@ -1210,12 +1216,261 @@ hr {
   transition-duration: 100s;
 }
 
+/******************create-grid********/
+#create-grid {
+  border: 1px solid #6C6C6C;
+}
+
+.grid-bg {
+  background-color: #F4F4F4;
+}
+
+.grid-bg h1,
+.grid-bg-1 h1 {
+  font-family: 'Genos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38.4px;
+  line-height: 46px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.grid-bg h4 {
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43.2px;
+  line-height: 65px;
+  color: #8D8D8D;
+}
+
+.grid-bg h3 {
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 29px;
+  text-align: center;
+  color: #8D8D8D;
+}
+
+#create-grid .Neon-input-dragDrop {
+  background-color: transparent !important;
+  width: auto !important;
+}
+
+#create-grid input {
+  background-color: transparent;
+  border: none;
+  font-family: 'Silk Serif' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px !important;
+  line-height: 29px;
+  text-align: center;
+  color: #8D8D8D !important;
+}
+
+#create-grid input::placeholder {
+  font-family: 'Silk Serif' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px !important;
+  line-height: 29px;
+  text-align: center;
+  color: #8D8D8D !important;
+}
+
+.add-item h3 {
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #8D8D8D;
+}
+
+.no-border {
+  border: 0px !important;
+}
+
+#create-grid::-webkit-input-placeholder {
+  /* Edge */
+  font-family: 'Silk Serif' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px !important;
+  line-height: 29px;
+  text-align: center;
+  color: #8D8D8D !important;
+}
+
+.blue-bg {
+  background: #3361FF;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  font-family: 'Genos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.gradiant-bg {
+
+
+  width: 39px;
+  height: 39px;
+  border: double 1px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #00A82F 31%, #0094FF 72.21%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.gradiant-bg span {
+  font-family: 'Genos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 0.04em;
+  width: 39px;
+  height: 39px;
+  border-radius: 50% !important;
+  background-color: #fff;
+  background: linear-gradient(90.55deg, #00A82F 31%, #0094FF 72.21%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-align: center;
+}
+
+#create-grid::-ms-input-placeholder {
+  /* Internet Explorer */
+  font-family: 'Silk Serif' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px !important;
+  line-height: 29px;
+  text-align: center;
+  color: #8D8D8D !important;
+}
+
+.grid-bg-1 {
+  background: url(../images/grid-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-bg-1 h4 {
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43.2px;
+  line-height: 65px;
+  color: #FFFFFF;
+}
+
+.grid-bg-1 h3 {
+  font-family: 'Silk Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.grid-bg-1 .Neon-input-dragDrop {
+  border: 1px solid #fff !important;
+}
+
+.new-grid-bg {
+  background-color: #FFFCF5;
+}
+
+.new-grid-bg h1 {
+  font-family: 'Genos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38.4px;
+  line-height: 46px;
+  letter-spacing: 0.04em;
+  color: #000000
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.parent-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.child {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.export-btn {
+  font-family: 'Genos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.0526px;
+  line-height: 25px;
+  text-align: center;
+  border: none;
+  color: #000000;
+  background: #EDEDED;
+  border-radius: 4.21053px 0px 4.21053px 4.21053px;
+}
+
+.dropdown-menu {
+  background: #3361FF;
+  border-bottom: 0.5px solid #D2D2D2;
+  border-radius: 2.81579px 2.81579px 0px 0px;
+}
+
+.dropdown-item {
+  font-family: 'Genos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid #fff;
+}
+
+/***********end create-grid*********/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .one-caroImg {
     width: 90vw;
   }
-  .table-responsive{
+
+  .table-responsive {
     display: block !important;
   }
 }
@@ -1225,7 +1480,8 @@ hr {
   .one-caroImg {
     width: 90vw;
   }
-  .table-responsive{
+
+  .table-responsive {
     display: block !important;
   }
 }
@@ -1235,7 +1491,8 @@ hr {
   .one-caroImg {
     width: 90vw;
   }
-  .table-responsive{
+
+  .table-responsive {
     display: block !important;
   }
 }
@@ -1245,7 +1502,8 @@ hr {
   .one-caroImg {
     width: 80vw;
   }
-  .table-responsive{
+
+  .table-responsive {
     display: inline-table !important;
   }
 }
@@ -1255,7 +1513,8 @@ hr {
   .one-caroImg {
     width: 80vw;
   }
-  .table-responsive{
+
+  .table-responsive {
     display: inline-table !important;
   }
 }

@@ -4289,7 +4289,11 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #464855; }
+  background: linear-gradient(90.55deg, #00A82F 31%, #0094FF 72.21%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent; }
 
 .navbar-light .navbar-toggler {
   color: #6b6f80;
@@ -4321,7 +4325,11 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff; }
+  background: linear-gradient(90.55deg, #00A82F 31%, #0094FF 72.21%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent; }
 
 .navbar-dark .navbar-toggler {
   color: white;
@@ -7561,6 +7569,7 @@ button.bg-dark:focus {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0; }
+
 
 .sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
