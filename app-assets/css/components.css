@@ -1087,9 +1087,9 @@ background-clip: text;
 }
 
 .main-menu .main-menu-content {
-  height: -webkit-calc(100% - 5rem);
-  height: -moz-calc(100% - 5rem);
-  height: calc(100% - 5rem);
+  height: -webkit-calc(100% - 0rem);
+  height: -moz-calc(100% - 0rem);
+  height: calc(100% - 0rem);
   position: relative;
   clear: both;
 }
