@@ -939,6 +939,8 @@ input.submit-input::placeholder {
   border-radius: 3.15789px;
   border: none;
   color: #FFFFFF;
+  width: 183.16px;
+    height: 30px;
 }
 
 #fulfill-request label {
