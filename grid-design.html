@@ -51,8 +51,10 @@
                         <li>
                             <div class="search-container">
                                 <form action="/action_page.php">
-                                    <input type="text" placeholder="Search anything" name="search " class="px-2">
-                                    <button type="submit"><i class="ficon ft-search"></i></button>
+                                    <input type="text" placeholder="Search anything" name="search "
+                                        class="px-2 search-top">
+                                    <button type="submit"><img src="app-assets/images/icons/Search-right.png"
+                                            alt=""></button>
                                 </form>
                             </div>
                         </li>
@@ -65,12 +67,6 @@
     <!-- END: Header-->
     <!-- BEGIN: Main Menu-->
     <div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true">
-        <div class="navbar-header">
-            <div class="">
-
-            </div>
-        </div>
-
         <div class="main-menu-content">
 
             <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
@@ -87,25 +83,25 @@
                     <div class="stylish-img"><img src="app-assets/images/gallery/stylist.png" class="img-fluid" alt="">
                     </div>
 
-                <li class="nav-item"><a href="" class="py-0 pl-3"><i class="box-shadow"></i><span class="menu-title"
-                            data-i18n="">
-                            <h2 class="stylish-name">Max Melia</h2>
+                <li class="nav-item"><a href="" class="py-0 pl-5 text-center" style="line-height: 0px;"><span
+                            class="menu-title" data-i18n="">
+                            <h2 class="stylish-name">Max Melia</h2><br>
+
                         </span></a> </li>
-                <li class="nav-item"><a href="" class="py-0 pl-5"><i class="box-shadow"></i><span
-                            class="menu-title profession" data-i18n="">Stylist</span></a> </li>
+                <li class="nav-item"><a href="" class="py-0 pl-5 text-center"><span class="menu-title profession"
+                            data-i18n="">Stylist</span></a> </li>
                 </li>
-                <li class="nav-item"><a href="" class="py-0 pl-5"><i class="box-shadow"></i><span
-                            class="menu-title profession" data-i18n=""><img
-                                src="app-assets/images/gallery/check-mark.png" alt=""></span></a> </li>
+                <li class="nav-item"><a href="" class="py-1 pl-5 text-center"><span class="menu-title profession"
+                            data-i18n=""><img src="app-assets/images/gallery/check-mark.png" alt=""></span></a> </li>
                 </li>
-                <li class=" nav-item"><a href="index.html"><i class="ft-home"></i><span class="menu-title"
+                <li class=" nav-item mt-5"><a href="index.html"><i class="ft-home"></i><span class="menu-title"
                             data-i18n="">Home</span></a>
                 </li>
                 <li class=" nav-item"><a href="#"><i class="ft-layers"></i><span class="menu-title"
                             data-i18n="">Messenger</span></a>
                 </li>
-                <li class=" nav-item"><a href="#" class="active"><i class="ft-monitor active"></i><span class="menu-title"
-                            data-i18n="">Grids</span></a>
+                <li class=" nav-item"><a href="#" class="active"><i class="ft-monitor active"></i><span
+                            class="menu-title" data-i18n="">Grids</span></a>
                 </li>
                 <li class=" nav-item"><a href="#"><i class="ft-layout"></i><span class="menu-title"
                             data-i18n="">Payments</span></a>
@@ -182,7 +178,7 @@
                 <div id="create-grid" class="mt-5">
                     <div class="row">
                         <div class="col-11">
-                            <div class="grid-bg-1 m-4 p-4">
+                            <div class="grid-bg-1 mx-4 mt-3 mb-2 p-4">
                                 <h1>STYLEGRID</h1>
                                 <div class="row">
                                     <div class="col-6 d-flex align-items-center">
@@ -192,13 +188,14 @@
                                     <div class="col-6">
                                         <div class="Neon Neon-theme-dragdropbox mt-5">
                                             <input name="files[]" id="filer_input2" multiple="multiple" type="file">
-                                            <div class="Neon-input-dragDrop py-5 px-4">
-                                                <div class="Neon-input-inner">
+                                            <div class="Neon-input-dragDrop py-5 px-4 mx-3">
+                                                <div class="Neon-input-inner py-4">
                                                     <div class="Neon-input-icon"><i class="fa fa-file-image-o"></i>
                                                     </div>
                                                     <div class="Neon-input-text">
                                                         <h3>Update feature image</h3>
-                                                    </div><a class="Neon-input-choose-btn blue"><img src="app-assets/images/gallery/white-plus.png" alt=""></a>
+                                                    </div><a class="Neon-input-choose-btn blue"><img
+                                                            src="app-assets/images/gallery/white-plus.png" alt=""></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -211,15 +208,15 @@
                                 <div class="blue-bg mt-2">1</div>
                                 <div class="gradiant-bg text-center mt-1"><span>2</span></div>
                                 <div class="gradiant-bg text-center mt-1"><span>3</span></div>
-                                <div class="gradiant-bg text-center mt-1"><span><img src="app-assets/images/icons/plus.png"
-                                            class="img-fluid" alt=""></div>
+                                <div class="gradiant-bg text-center mt-1"><span><img
+                                            src="app-assets/images/icons/green-logo.png" class="img-fluid" alt=""></div>
                                 </span>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-11">
-                            <div class="grid-bg mx-4 p-4">
+                            <div class="grid-bg mx-4 px-4 py-2 mb-3">
                                 <div class="row">
                                     <div class="col-8">
                                         <h1>STYLEGRID</h1>
@@ -228,20 +225,18 @@
                                             class="img-fluid" alt=""></div>
                                 </div>
                                 <div class="row add-item">
-                                    <div class="col-6 d-flex align-items-center">
+                                    <div class="col-6 d-flex align-items-start">
                                         <div class="row">
                                             <div class="col-5">
                                                 <div class="Neon Neon-theme-dragdropbox mt-5">
                                                     <input name="files[]" id="filer_input2" multiple="multiple"
                                                         type="file">
                                                     <div class="Neon-input-dragDrop ">
-                                                        <div class="Neon-input-inner">
-                                                            <div class="Neon-input-icon"><i
-                                                                    class="fa fa-file-image-o"></i>
-                                                            </div>
+                                                        <div class="Neon-input-inner py-2">
                                                             <div class="Neon-input-text">
                                                                 <h3>Add an item here</h3>
-                                                            </div><a class="Neon-input-choose-btn blue"><img src="app-assets/images/icons/plus.png" alt=""></a>
+                                                            </div><a class="Neon-input-choose-btn blue"><img
+                                                                    src="app-assets/images/icons/plus.png" alt=""></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -251,34 +246,31 @@
                                                     <input name="files[]" id="filer_input2" multiple="multiple"
                                                         type="file">
                                                     <div class="Neon-input-dragDrop">
-                                                        <div class="Neon-input-inner">
-                                                            <div class="Neon-input-icon"><i
-                                                                    class="fa fa-file-image-o"></i>
-                                                            </div>
+                                                        <div class="Neon-input-inner py-2">
                                                             <div class="Neon-input-text">
                                                                 <h3>Add an item here</h3>
-                                                            </div><a class="Neon-input-choose-btn blue"><img src="app-assets/images/icons/plus.png" alt=""></a>
+                                                            </div><a class="Neon-input-choose-btn blue"><img
+                                                                    src="app-assets/images/icons/plus.png" alt=""></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-2 px-0">
-                                               <div class="Neon Neon-theme-dragdropbox mt-2">
-                                                        <input name="files[]" id="filer_input2" multiple="multiple"
-                                                            type="file">
-                                                        <div class="Neon-input-dragDrop no-border p-0">
-                                                            <div class="Neon-input-inner">
-                                                                <div class="Neon-input-icon"><i
-                                                                        class="fa fa-file-image-o"></i>
-                                                                </div>
-                                                                <div class="Neon-input-text d-flex">
-                                                                    <a class="Neon-input-choose-btn blue"><img src="app-assets/images/icons/plus.png" alt=""></a>
-                                                                    <h3 class="mt-2">Add another block</h3>
-                                                               </div>
+                                                <div class="Neon Neon-theme-dragdropbox mt-2">
+                                                    <input name="files[]" id="filer_input2" multiple="multiple"
+                                                        type="file">
+                                                    <div class="Neon-input-dragDrop no-border p-0">
+                                                        <div class="Neon-input-inner">
+                                                            <div class="Neon-input-text d-flex">
+                                                                <a class="Neon-input-choose-btn blue"><img
+                                                                        src="app-assets/images/icons/plus.png"
+                                                                        alt=""></a>
+                                                                <h3 class="mt-2">Add another block</h3>
                                                             </div>
                                                         </div>
                                                     </div>
-                                               
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -286,12 +278,11 @@
                                         <div class="Neon Neon-theme-dragdropbox mt-5">
                                             <input name="files[]" id="filer_input2" multiple="multiple" type="file">
                                             <div class="Neon-input-dragDrop py-5 px-4">
-                                                <div class="Neon-input-inner">
-                                                    <div class="Neon-input-icon"><i class="fa fa-file-image-o"></i>
-                                                    </div>
+                                                <div class="Neon-input-inner py-2">
                                                     <div class="Neon-input-text">
                                                         <h3>Add your feature image here...</h3>
-                                                    </div><a class="Neon-input-choose-btn blue"><img src="app-assets/images/icons/plus.png" alt=""></a>
+                                                    </div><a class="Neon-input-choose-btn blue"><img
+                                                            src="app-assets/images/icons/plus.png" alt=""></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -300,7 +291,7 @@
                             </div>
                         </div>
                         <div class="col-1">
-                           
+
                         </div>
                     </div>
                 </div>

@@ -51,8 +51,8 @@
                         <li>
                             <div class="search-container">
                                 <form action="/action_page.php">
-                                    <input type="text" placeholder="Search anything" name="search " class="px-2">
-                                    <button type="submit"><i class="ficon ft-search"></i></button>
+                                    <input type="text" placeholder="Search anything" name="search " class="px-2 search-top">
+                                    <button type="submit"><img src="app-assets/images/icons/Search-right.png" alt=""></button>
                                 </form>
                             </div>
                         </li>
@@ -65,12 +65,6 @@
     <!-- END: Header-->
     <!-- BEGIN: Main Menu-->
     <div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true">
-        <div class="navbar-header">
-            <div class="">
-
-            </div>
-        </div>
-
         <div class="main-menu-content">
 
             <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
@@ -87,17 +81,18 @@
                     <div class="stylish-img"><img src="app-assets/images/gallery/stylist.png" class="img-fluid" alt="">
                     </div>
 
-                <li class="nav-item"><a href="" class="py-0 pl-3"><i class="box-shadow"></i><span class="menu-title"
-                            data-i18n="">
-                            <h2 class="stylish-name">Max Melia</h2>
-                        </span></a> </li>
-                <li class="nav-item"><a href="" class="py-0 pl-5"><i class="box-shadow"></i><span
-                            class="menu-title profession" data-i18n="">Stylist</span></a> </li>
-                </li>
-                <li class="nav-item"><a href="" class="py-0 pl-5"><i class="box-shadow"></i><span
-                            class="menu-title profession" data-i18n=""><img
-                                src="app-assets/images/gallery/check-mark.png" alt=""></span></a> </li>
-                </li>
+                    <li class="nav-item"><a href="" class="py-0 pl-5 text-center" style="line-height: 0px;"><span class="menu-title"
+                        data-i18n="">
+                        <h2 class="stylish-name">Max Melia</h2><br>
+                        
+                    </span></a> </li>
+            <li class="nav-item"><a href="" class="py-0 pl-5 text-center"><span
+                        class="menu-title profession" data-i18n="">Stylist</span></a> </li>
+            </li>
+            <li class="nav-item"><a href="" class="py-1 pl-5 text-center"><span
+                        class="menu-title profession" data-i18n=""><img
+                            src="app-assets/images/gallery/check-mark.png" alt=""></span></a> </li>
+            </li>
                 <li class=" nav-item"><a href="index.html"><i class="ft-home"></i><span class="menu-title"
                             data-i18n="">Home</span></a>
                 </li>
@@ -185,7 +180,7 @@
                             <div class="row  text-aligns-center">
                                 <h1 class="col-6">Hermes Mini Kelly 20</h1>
                                 <h2 class="px-2 mt-1 col-2">Hermes</h2>
-                                <a href="" class=" col-4 text-right"><button class="request-btn px-3 py-1">Make
+                                <a href="" class=" col-4 text-right mt-2"><button class="request-btn px-3">Make
                                         Request</button></a>
                             </div>
                         </div>
@@ -222,8 +217,7 @@
                                 <input name="files[]" id="filer_input2" multiple="multiple" type="file">
                                 <div class="Neon-input-dragDrop py-5 px-4">
                                     <div class="Neon-input-inner">
-                                        <div class="Neon-input-icon"><i class="fa fa-file-image-o"></i></div>
-                                        <div class="Neon-input-text">
+                                        <div class="Neon-input-text py-4">
                                             <h3>Upload an image of the product here</h3>
                                         </div><a class="Neon-input-choose-btn blue"><img src="app-assets/images/icons/plus.png" alt=""></a>
                                     </div>
@@ -235,40 +229,40 @@
                                 <form id="submit-request" action="request-submit.html">
                                     <div class="form-group">
                                         <label for="">Enter the name of the product here:</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
-                                            placeholder="Enter product name...">
+                                        <input type="text" class="form-control submit-input" aria-describedby="emailHelp"
+                                            placeholder="Enter product name..." >
 
                                     </div>
                                     <div class="form-group">
                                         <label for="">Tell us the brand of the product:</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
+                                        <input type="text" class="form-control submit-input" aria-describedby="emailHelp"
                                             placeholder="Enter brand name...">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="">What is the product type? (Bag, Dress, Heels etc)</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
+                                        <input type="text" class="form-control submit-input" aria-describedby="emailHelp"
                                             placeholder="Enter product type...">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="">Does the product have a size? Leave blank if none.</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
+                                        <input type="text" class="form-control submit-input" aria-describedby="emailHelp"
                                             placeholder="Enter product size...">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="">What region the product needs to be delivered to:</label>
-                                        <input type="text" class="form-control" aria-describedby="emailHelp"
+                                        <input type="text" class="form-control submit-input" aria-describedby="emailHelp"
                                             placeholder="Enter region...">
 
                                     </div>
                                     <div class="form-group">
                                         <label for="">When do you require the product by?</label>
-                                        <input type="text" class="form-control" id="" placeholder="Enter due date...">
+                                        <input type="text" class="form-control submit-input" id="" placeholder="Enter due date...">
                                     </div>
                                     <a href="request-submit.html">
-                                        <button type="submit" class="submit-request px-3 py-1 mt-2">Submit
+                                        <button type="submit" class="submit-request px-3  mt-2">Submit
                                             request</button></a>
                                 </form>
                             </div>
