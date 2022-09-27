@@ -1443,8 +1443,9 @@ select.form-control {
 .card {
   margin-bottom: 1.875rem;
   border: none;
-  -webkit-box-shadow: 0px 1px 15px 1px rgba(62, 57, 107, 0.07);
-  box-shadow: 0px 1px 15px 1px rgba(62, 57, 107, 0.07); }
+  /* -webkit-box-shadow: 0px 1px 15px 1px rgba(62, 57, 107, 0.07);
+  box-shadow: 0px 1px 15px 1px rgba(62, 57, 107, 0.07);*/ 
+}
   .card .card {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
