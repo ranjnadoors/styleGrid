@@ -2423,6 +2423,16 @@ color: #3354FF;
   .table-responsive {
     display: block !important;
   }
+  #twoPagecarousel .carousel-caption p, .img-width p {
+    font-size: 20px;
+  }
+  .carousel-caption button{
+    font-size: 18px;
+    height: 27px;
+  }
+  .raise-bg p, .raise-bg-img p, .raise-bg .btn, .raise-bg-img .btn {
+    font-size: 16px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -2434,8 +2444,17 @@ color: #3354FF;
   .table-responsive {
     display: block !important;
   }
+  #twoPagecarousel .carousel-caption p, .img-width p {
+    font-size: 20px;
+  }
+  .carousel-caption button{
+    font-size: 18px;
+    height: 27px;
+  }
+  .raise-bg p, .raise-bg-img p,.raise-bg .btn, .raise-bg-img .btn {
+    font-size: 16px;
+  }
 }
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .one-caroImg {
@@ -2452,10 +2471,20 @@ color: #3354FF;
   .one-caroImg {
     width: 80vw;
   }
-
+  #twoPagecarousel .carousel-caption p, .img-width p {
+    font-size: 10px;
+  }
   .table-responsive {
     display: inline-table !important;
   }
+  .carousel-caption button{
+    font-size: 14px;
+    height: 19px;
+  }
+  .raise-bg p, .raise-bg-img p,.raise-bg .btn, .raise-bg-img .btn {
+    font-size: 10px;
+  }
+  
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
