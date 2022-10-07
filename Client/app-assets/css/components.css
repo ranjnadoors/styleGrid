@@ -387,7 +387,7 @@ footer.footer-dark {
 .main-menu.menu-light .navigation li.active>a {
   background: linear-gradient(90.55deg, #00A82F 31%, #0094FF 72.21%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
 }
 
@@ -410,8 +410,8 @@ footer.footer-dark {
 }
 
 .main-menu.menu-light .navigation>li.open>a {
-  color: #2b345f;
-  color: #fa626b;
+  color: #000;
+  /* color: #fa626b; */
 }
 
 .main-menu.menu-light .navigation>li.open .hover>a {
@@ -460,7 +460,7 @@ line-height: 29px;
 text-align: center; */
 background: linear-gradient(90.55deg, #00A82F 31%, #0094FF 72.21%);
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+/* -webkit-text-fill-color: transparent; */
 background-clip: text;
 
 text-fill-color: transparent;

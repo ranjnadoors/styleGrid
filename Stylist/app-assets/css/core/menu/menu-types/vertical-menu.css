@@ -1,14 +1,4 @@
-/*=========================================================================================
-    File Name: vertical-menu.scss
-    Description: A calssic vertical style menu with expand and collops support. It support
-    light & dark version, filpped layout, right side icons, native scroll and borders menu
-    item seperation.
-    ----------------------------------------------------------------------------------------
-    Item Name: Chameleon Admin - Modern Bootstrap 4 WebApp & Dashboard HTML Template + UI Kit
-    Version: 1.2
-    Author: ThemeSelection
-    Author URL: https://themeselection.com/
-==========================================================================================*/
+
 @media (min-width: 576px) {
   body.vertical-layout.vertical-menu.menu-flipped .main-menu {
     right: 0; } }
@@ -175,11 +165,11 @@ body.vertical-layout.vertical-menu.menu-collapsed .main-menu {
     left: 60px;
     width: 260px;
     font-weight: 600;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     text-align: left;
-    background-color: #fa626b;
-    border-color: #fa626b;
+    background-color: #138232;
+    border-color: #138232;
     padding: 18px 30px; }
   body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content {
     left: 60px;
