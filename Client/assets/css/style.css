@@ -298,7 +298,7 @@
 .client-raise-bg {
   background: #FAFAFA;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 261px;
+  height: auto;
 }
 
 .raise-bg h1,
@@ -2555,7 +2555,7 @@ margin-bottom: 23px; */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .one-caroImg {
-    width: 90vw;
+    width: 97vw;
   }
 
   .table-responsive {
