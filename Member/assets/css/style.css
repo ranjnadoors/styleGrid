@@ -111,6 +111,12 @@
   .topnav .search-container {
     float: none;
   }
+  .content-body h1{
+    font-size: 25px;
+  }
+  .content-body h3{
+    font-size: 16px;
+  }
 
   .topnav a,
   .topnav input[type=text],
@@ -203,7 +209,7 @@
 }
 
 .quick-link a {
-  font-family: 'Genos';
+  font-family: 'Genos-Light';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -614,7 +620,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #7B7B7B;
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 
@@ -1399,7 +1405,7 @@ hr {
 }
 
 #onePagecarousel .carousel-control-next-icon {
-  margin-right: 113px !important;
+  margin-right: 44px !important;
 }
 
 .img-width.carousel-caption {
@@ -2264,7 +2270,7 @@ hr {
 }
 
 .modal {
-  top: 45% !important;
+  top: 25% !important;
 }
 
 #exampleModal h1,
@@ -2499,7 +2505,7 @@ margin-bottom: 23px; */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .one-caroImg {
-    width: 90vw;
+    width: 100vw;
   }
 
   .table-responsive {
@@ -2508,7 +2514,8 @@ margin-bottom: 23px; */
 
   #twoPagecarousel .carousel-caption p,
   .img-width p {
-    font-size: 20px;
+    font-size: 12px;
+    letter-spacing: 0.64px;
   }
 
   .carousel-caption button {
@@ -2516,18 +2523,28 @@ margin-bottom: 23px; */
     height: 27px;
   }
 
-  .raise-bg p,
+  
   .raise-bg-img p,
   .raise-bg .btn,
   .raise-bg-img .btn {
     font-size: 16px;
+  }
+  .content-body h1,#inbox-msg h3,#style-news h1,#footer h1,
+  #browse-soursing h1,#notice-board h1,#refer-client h1,#create-grid-1 h1{
+    font-size: 25px;
+  }
+  .content-body h3,#browse-soursing h2,#footer p{
+    font-size: 16px;
+  }
+  #board-detail h1{
+    font-size: 15px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .one-caroImg {
-    width: 90vw;
+    width: 100vw;
   }
 
   .table-responsive {
@@ -2536,19 +2553,33 @@ margin-bottom: 23px; */
 
   #twoPagecarousel .carousel-caption p,
   .img-width p {
-    font-size: 20px;
+    font-size: 12px;
+    letter-spacing: 0.64px;
   }
-
-  .carousel-caption button {
+  .carousel-control-next {
+    right: 30px; }
+  /* .carousel-caption button {
     font-size: 18px;
     height: 27px;
-  }
+  } */
 
-  .raise-bg p,
+  
   .raise-bg-img p,
   .raise-bg .btn,
   .raise-bg-img .btn {
     font-size: 16px;
+  }
+  .content-body h1,#browse-soursing h1,#notice-board h1,#refer-client h1,#footer h1,#create-grid-1 h1{
+    font-size: 25px;
+  }
+  .content-body h3,#browse-soursing h2,#footer p{
+    font-size: 16px;
+  }
+  #board-detail h1{
+    font-size: 15px;
+  }
+  .border-right1{
+    border: 0px !important;
   }
 }
 
@@ -2561,6 +2592,26 @@ margin-bottom: 23px; */
   .table-responsive {
     display: block !important;
   }
+  .content-body h1,#browse-soursing h1,#notice-board h1,#create-grid-1 h1{
+    font-size: 32px;
+  }
+  #refer-client h1{
+    font-size: 37.812px;
+  }
+  .content-body h3,.raise-bg h1{
+    font-size: 24px;
+  }
+    .carousel-control-next {
+      right: -30px; } 
+      #footer h1{
+        font-size: 48px;
+      }
+      .raise-bg-img h1{
+        font-size: 24px;
+      }
+      #board-detail h1{
+        font-size: 15.9px;
+      }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -2572,6 +2623,9 @@ margin-bottom: 23px; */
   #twoPagecarousel .carousel-caption p,
   .img-width p {
     font-size: 10px;
+  }
+  .border-right1{
+    border: 1px solid #626E82 !important
   }
 
   .table-responsive {

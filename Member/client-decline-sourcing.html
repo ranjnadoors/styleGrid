@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
     <!-- BEGIN: Theme CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
@@ -23,45 +24,44 @@
 <body class="vertical-layout vertical-menu 2-columns   fixed-navbar" data-open="click" data-menu="vertical-menu"
     data-color="bg-gradient-x-purple-blue" data-col="2-columns">
     <!-- BEGIN: Header-->
-    <nav
-        class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
-        <div class="navbar-wrapper">
-            <div class="navbar-container content">
-                <div class="collapse navbar-collapse show" id="navbar-mobile">
-                    <ul class="nav navbar-nav  float-left">
-                        
-                        <li class="nav-item d-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
-                                href="#"><i class="ft-menu"></i></a></li>
+    <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
+    <div class="navbar-wrapper">
+        <div class="navbar-container content">
+            <div class="collapse navbar-collapse show d-flex" id="navbar-mobile">
+                <ul class="nav navbar-nav  float-left">
+                    
+                    <li class="nav-item  d-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
+                            href="#"><i class="ft-menu"></i></a></li>
 
-                        <li class="dropdown nav-item mega-dropdown d-none d-md-block"><a
-                                class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">Hi Georgia! Welcome to
-                                your StyleGrid Dashboard.</a>
+                    <li class="dropdown nav-item mega-dropdown d-lg-block d-none"><a
+                            class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">Hi Georgia! Welcome to
+                            your StyleGrid Dashboard.</a>
 
-                        </li>
+                    </li>
 
 
-                    </ul>
-                    <ul class="style-logo mx-auto list-unstyled">
-                        <li><a href=""><img src="app-assets/images/icons/logo.png" alt="" class="logo1"><img
-                                    src="app-assets/images/icons/STYLEGRID-LOGO.png" alt="" class="logo2 pl-1"></a></li>
-                    </ul>
-                    <ul class="nav navbar-nav float-right">
-                        <li>
-                            <div class="search-container">
-                                <form action="/action_page.php">
-                                    <input type="text" placeholder="Search anything" name="search "
-                                        class="px-2 search-top">
-                                    <button type="submit"><img src="app-assets/images/icons/Search-right.png"
-                                            alt=""></button>
-                                </form>
-                            </div>
-                        </li>
+                </ul>
+                <ul class="style-logo mx-auto list-unstyled d-flex">
+                    <li><a href=""><img src="app-assets/images/icons/logo.png" alt="" class="logo1"></a></li>
+                      <li><a href=""><img src="app-assets/images/icons/STYLEGRID-LOGO.png" alt="" class="logo2 pl-1 d-lg-block d-none my-1"></a></li>
+                </ul>
+                <ul class="nav navbar-nav float-right">
+                    <li>
+                        <div class="search-container">
+                            <form action="/action_page.php">
+                                <input type="text" placeholder="Search anything" name="search "
+                                    class="px-2 search-top">
+                                <button type="submit"><img src="app-assets/images/icons/Search-right.png"
+                                        alt=""></button>
+                            </form>
+                        </div>
+                    </li>
 
-                    </ul>
-                </div>
+                </ul>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
     <!-- END: Header-->
     <!-- BEGIN: Main Menu-->
     <div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true">
@@ -74,15 +74,18 @@
                                 style="margin-left: 3px"></i><span class="menu-title">
                             <i class="box-shadow ml-5"><img src="app-assets/images/icons/Gear.svg" alt="">
                                 <img src="app-assets/images/icons/Help.svg" style="margin-left: 3px" alt=""></i>
+
                         </span>
                     </a>
+
                 </li>
 
+                
                 <li class="nav-item text-center">
                     <div class="stylish-img"><img src="app-assets/images/gallery/Profile Picture (1).png"
                             class="img-fluid" alt="">
                     </div>
-
+                
                 <li class="nav-item"><a href="" class="py-0 pl-5 text-center" style="line-height: 0px;"><span
                             class="menu-title" data-i18n="">
                             <h2 class="stylish-name">Georgia Fox</h2><br>
@@ -94,7 +97,7 @@
                 <!-- <li class="nav-item"><a href="" class="py-1 pl-5 text-center"><span
                         class="menu-title profession" data-i18n=""><img
                             src="app-assets/images/gallery/check-mark.png" alt=""></span></a> </li> -->
-                </li>
+                        </li>
                 <li class=" nav-item mt-5"><a href="index.html"><i class="ft-home"></i><span class="menu-title"
                             data-i18n="">Home</span></a>
                 </li>
@@ -112,8 +115,8 @@
                             class="menu-title" data-i18n="">Sourcing</span></a>
 
                 </li>
-                <li class=" nav-item "><a href="orders.html" class=""><i class="ft-aperture "></i><span class="menu-title"
-                            data-i18n="">Orders</span></a>
+                <li class=" nav-item "><a href="orders.html" class=""><i class="ft-aperture "></i><span
+                            class="menu-title" data-i18n="">Orders</span></a>
 
                 </li>
                 <li class=" nav-item"><a href="#"><i class="ft-box"></i><span class="menu-title"
@@ -160,14 +163,14 @@
             <div class="content-body">
                 <!-- Revenue, Hit Rate & Deals -->
                 <div class="row my-3">
-                    <div class="col-8">
+                    <div class="col-md-8">
                         <h1>Welcome to your product sourcing overview</h1>
                         <h3>Check the status on your existing sourcing requests or submit a new request.</h3>
-                        <div class="mt-3">
-                            <a href="client-submit-request.html"><button class="make-request">Make New Request</button></a>
+                        <div class="mt-lg-3">
+                            <a href=""><button class="make-request">Make New Request</button></a>
                         </div>
                     </div>
-                    <div class="col-4 quick-link text-right">
+                    <div class="col-md-4 quick-link text-right">
                         <span class="mr-5"><a hrf="">Quick Link</a></span>
                         <div class="row justify-content-end my-2 mr-2">
                             <a href="" class="mx-1"><img src="app-assets/images/icons/Chat.svg" alt=""></a>
@@ -179,13 +182,13 @@
                     </div>
                 </div>
                 <!--------------------souring hub--------->
-                <div id="browse-soursing" class="mt-5">
+                <div id="browse-soursing" class="mt-lg-5 mt-3">
                     <div class="row">
-                        <div class="col-6">
-                              <h1>Live Requests</h1>
-                              </div>
+                        <div class="col-lg-6 text-lg-left text-center">
+                              <h1 class="">Live Requests</h1>
+                         </div>
                         <!-- Pills navs -->
-                        <div class="col-6 d-flex justify-content-end">
+                        <div class="col-lg-6 d-flex justify-lg-content-end justify-content-center">
                             <ul id="myTab_1" role="tablist" class="nav nav-tabs   flex-sm-row text-center  rounded-nav">
                                 <li class="nav-item ">
                                     <a id="home-tab" data-toggle="tab" href="#home_1" role="tab" aria-controls="home"
@@ -238,12 +241,12 @@
                                                 <td>Hermes</td>
                                                 <td>UAE</td>
                                                 <td>31/09/22</td>
-                                                <td class="green-color">Offer Received</td>
-                                                <td><a href="client-sourcing-offer-received.html"><button class="">View
-                                                            Order</button></a></td>
+                                                <td class="orange-color">Pending</td>
+                                                <!-- <td><a href="fullfil-sourcing-request.html"><button class="">View
+                                                            Order</button></a></td> -->
                                             </tr>
                                             <tr>
-                                                <td class="d-flex"><span class="dot"></span>Off-White Jordan 4&apos;s
+                                                <td class="d-flex"><span class="dot"></span>Off-White Jordan 4’s
                                                 </td>
                                                 <td>EU37</td>
                                                 <td>Shoes</td>
@@ -251,10 +254,10 @@
                                                 <td>Amina Muaddi</td>
                                                 <td>31/09/22</td>
                                                 <td class="green-color">3 Offers Received</td>
-                                                <td><a href="client-multiple-order-received.html"><button class="">View Order</button></a></td>
+                                                <td><button class="">View Order</button></td>
                                             </tr>
                                             <tr style="border-bottom: 0px !important;">
-                                                <td class="d-flex"><span class="dot"></span>Off-White Jordan 4&apos;s
+                                                <td class="d-flex"><span class="dot"></span>Off-White Jordan 4’s
                                                 </td>
                                                 <td>N/A</td>
                                                 <td>Shoes</td>
@@ -262,16 +265,22 @@
                                                 <td>USA</td>
                                                 <td>31/09/22</td>
                                                 <td class="orange-color">Pending</td>
-                                              </tr>
+                                                <!-- <td><button class="px-2">Fufill</button></td> -->
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
-                               </div>
+                                <!-- <div class="d-flex px-2">
+                                    <div class="show-bg"><img src="app-assets/images/icons/show-more.svg" alt="">
+                                    </div>
+                                    <span class="show px-1">See more</span>
+                                </div> -->
+                            </div>
                         </div>
                     </div>
                     <!-----------------new table-------------->
                     <div class="row mt-3">
-                        <h1 class=" pl-1">Previous Requests</h1>
+                        <h1 class="col pl-1 text-lg-left text-center">Previous Requests</h1>
                     </div>
                     <div class="row w-100">
                         <div id="TabContent" class="tab-content my-2 w-100">

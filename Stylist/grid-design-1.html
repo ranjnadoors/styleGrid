@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
     <!-- BEGIN: Theme CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
@@ -23,27 +24,26 @@
 <body class="vertical-layout vertical-menu 2-columns   fixed-navbar" data-open="click" data-menu="vertical-menu"
     data-color="bg-gradient-x-purple-blue" data-col="2-columns">
     <!-- BEGIN: Header-->
-    <nav
-        class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
+    <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
         <div class="navbar-wrapper">
             <div class="navbar-container content">
-                <div class="collapse navbar-collapse show" id="navbar-mobile">
+                <div class="collapse navbar-collapse show d-flex" id="navbar-mobile">
                     <ul class="nav navbar-nav  float-left">
-
-                        <li class="nav-item d-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i
-                                    class="ft-menu"></i></a></li>
-
-                        <li class="dropdown nav-item mega-dropdown d-none d-md-block"><a
-                                class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"> Hi Max! Welcome to
-                                your Stylist Dashboard.</a>
-
+                        
+                        <li class="nav-item  d-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
+                                href="#"><i class="ft-menu"></i></a></li>
+    
+                        <li class="dropdown nav-item mega-dropdown d-lg-block d-none"><a
+                                class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">Hi Georgia! Welcome to
+                                your StyleGrid Dashboard.</a>
+    
                         </li>
-
-
+    
+    
                     </ul>
-                    <ul class="style-logo mx-auto list-unstyled">
-                        <li><a href=""><img src="app-assets/images/icons/logo.png" alt="" class="logo1"><img
-                                    src="app-assets/images/icons/STYLEGRID-LOGO.png" alt="" class="logo2 pl-1"></a></li>
+                    <ul class="style-logo mx-auto list-unstyled d-flex">
+                        <li><a href=""><img src="app-assets/images/icons/logo.png" alt="" class="logo1"></a></li>
+                          <li><a href=""><img src="app-assets/images/icons/STYLEGRID-LOGO.png" alt="" class="logo2 pl-1 d-lg-block d-none my-1"></a></li>
                     </ul>
                     <ul class="nav navbar-nav float-right">
                         <li>
@@ -56,7 +56,7 @@
                                 </form>
                             </div>
                         </li>
-
+    
                     </ul>
                 </div>
             </div>
@@ -159,11 +159,11 @@
             <div class="content-body">
                 <!-- Revenue, Hit Rate & Deals -->
                 <div class="row mt-3">
-                    <div class="col-8">
+                    <div class="col-md-8">
                         <h1>Let&apos;s get styling.</h1>
                         <h3>Create a new StyleGrid and send to your clients via PDF or weblink.</h3>
                     </div>
-                    <div class="col-4 quick-link text-right">
+                    <div class="col-md-4 quick-link text-right">
                         <span class="mr-5"><a hrf="">Quick Link</a></span>
                         <div class="row justify-content-end my-2">
                             <a href="" class="mx-1"><img src="app-assets/images/icons/Chat.svg" alt=""></a>
@@ -177,15 +177,15 @@
                 <!-------------------- fulfil souring request--------->
                 <div id="create-grid" class="mt-2 no-border">
                     <div class="row">
-                        <div class="col-11">
+                        <div class="col-lg-11">
                             <div class="grid-bg-1 p-4">
                                 <h1>STYLEGRID</h1>
                                 <div class="row">
-                                    <div class="col-6 d-flex align-items-center">
+                                    <div class="col-lg-6 d-flex align-items-center">
                                         <h4>Johan&apos;s Tuscany Grid</h>
 
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-lg-6">
                                         <div class="Neon Neon-theme-dragdropbox mt-5">
                                             <input name="files[]" id="filer_input2" multiple="multiple" type="file">
                                             <div class="Neon-input-dragDrop py-5 px-4 mx-3">
@@ -208,7 +208,7 @@
                         </div>
                     </div>
                     <div class="row mt-2">
-                        <div class="col-11">
+                        <div class="col-lg-11">
                             <div class="new-grid-bg p-4">
                                 <div class="row">
                                     <div class="col-8">
@@ -220,9 +220,9 @@
                                     </div>
                                 </div>
                                 <div class="row add-item">
-                                    <div class="col-6 d-flex align-items-start">
+                                    <div class="col-lg-6 d-flex align-items-start">
                                         <div class="row p-3">
-                                            <div class="col-5">
+                                            <div class="col-lg-5 col-6">
                                                 <div class="parent">
                                                     <img src="app-assets/images/gallery/grid-1.png"
                                                         class="img-fluid parent-1" alt="">
@@ -236,7 +236,7 @@
                                                         class="img-fluid child" alt=""> -->
                                                 </div>
                                             </div>
-                                            <div class="col-5">
+                                            <div class="col-lg-5 col-6">
                                                 <div class="parent">
                                                     <img src="app-assets/images/gallery/grid-3.png"
                                                         class="img-fluid parent-1" alt="">
@@ -250,7 +250,7 @@
                                                         class="img-fluid child" alt=""> -->
                                                 </div>
                                             </div>
-                                            <div class="col-2 px-0">
+                                            <div class="col-lg-2 px-0">
                                                 <!-- <div class="Neon Neon-theme-dragdropbox ">
 
                                                     <div class="Neon-input-dragDrop no-border p-0">
@@ -269,7 +269,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-6 px-5">
+                                    <div class="col-lg-6 px-lg-5 px-2">
                                         <img src="app-assets/images/gallery/grid-5.png" class="img-fluid" alt="">
                                     </div>
                                 </div>
