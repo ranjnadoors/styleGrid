@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
     <!-- BEGIN: Theme CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
@@ -23,38 +24,39 @@
 <body class="vertical-layout vertical-menu 2-columns   fixed-navbar" data-open="click" data-menu="vertical-menu"
     data-color="bg-gradient-x-purple-blue" data-col="2-columns">
     <!-- BEGIN: Header-->
-    <nav
-        class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
+    <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light">
         <div class="navbar-wrapper">
             <div class="navbar-container content">
-                <div class="collapse navbar-collapse show" id="navbar-mobile">
+                <div class="collapse navbar-collapse show d-flex" id="navbar-mobile">
                     <ul class="nav navbar-nav  float-left">
                         
                         <li class="nav-item  d-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
                                 href="#"><i class="ft-menu"></i></a></li>
-
-                        <li class="dropdown nav-item mega-dropdown d-none d-md-block"><a
-                                class="dropdown-toggle nav-link" href="#" data-toggle="dropdown"> Hi Max! Welcome to
-                                your Stylist Dashboard.</a>
-
+    
+                        <li class="dropdown nav-item mega-dropdown d-lg-block d-none"><a
+                                class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">Hi Georgia! Welcome to
+                                your StyleGrid Dashboard.</a>
+    
                         </li>
-
-
+    
+    
                     </ul>
-                    <ul class="style-logo mx-auto list-unstyled">
-                        <li><a href=""><img src="app-assets/images/icons/logo.png" alt="" class="logo1"><img
-                                    src="app-assets/images/icons/STYLEGRID-LOGO.png" alt="" class="logo2 pl-1"></a></li>
+                    <ul class="style-logo mx-auto list-unstyled d-flex">
+                        <li><a href=""><img src="app-assets/images/icons/logo.png" alt="" class="logo1"></a></li>
+                          <li><a href=""><img src="app-assets/images/icons/STYLEGRID-LOGO.png" alt="" class="logo2 pl-1 d-lg-block d-none my-1"></a></li>
                     </ul>
                     <ul class="nav navbar-nav float-right">
                         <li>
                             <div class="search-container">
                                 <form action="/action_page.php">
-                                    <input type="text" placeholder="Search anything" name="search " class="px-2 search-top">
-                                    <button type="submit"><img src="app-assets/images/icons/Search-right.png" alt=""></button>
+                                    <input type="text" placeholder="Search anything" name="search "
+                                        class="px-2 search-top">
+                                    <button type="submit"><img src="app-assets/images/icons/Search-right.png"
+                                            alt=""></button>
                                 </form>
                             </div>
                         </li>
-
+    
                     </ul>
                 </div>
             </div>
@@ -157,12 +159,12 @@
             </div>
             <div class="content-body">
                 <!-- Revenue, Hit Rate & Deals -->
-                <div class="row client-margin-top">
-                    <div class="col-8">
+                <div class="flex-column-reverse flex-md-row mt-lg-3 row">
+                    <div class="col-md-8">
                         <h1>Browse your client base.</h1>
                         <h3>See all your clients at a glance and their purchase data.</h3>
                     </div>
-                    <div class="col-4 quick-link text-right">
+                    <div class="col-md-4 quick-link text-right">
                         <span class="mr-5"><a hrf="">Quick Link</a></span>
                         <div class="row justify-content-end my-2">
                             <a href="" class="mx-1"><img src="app-assets/images/icons/Chat.svg" alt=""></a>
@@ -174,10 +176,10 @@
                     </div>
                 </div>
                 <div class="row client-margin-top">
-                    <div class="col-8">
+                    <div class="col-lg-8 col-7">
                         <h1>Current Clients</h1>
                     </div>
-                    <div class="col-4 text-right">
+                    <div class="col-lg-4 col-5 text-right">
                         <a href=""><button class="add-new-client-btn">Add New Client</button></a>
                     </div>
                 </div>
@@ -186,12 +188,12 @@
                     <div class="client-border">
                         <div class=" border-bottom-client">
                             <div class="row px-3 py-2">
-                                <h6 class="mt-1 col-2">46 Clients</h6>
-                                <div class="img-bg col-lg-1 col-2"><img src="app-assets/images/icons/client1.png" class="img-fluid"
+                                <h6 class="mt-1 col-md-2 col-6">46 Clients</h6>
+                                <div class="img-bg col-lg-1 col-md-2 col-4"><img src="app-assets/images/icons/client1.png" class="img-fluid"
                                         alt="">
                                     <img src="app-assets/images/icons/client2.png" class="img-fluid ml-1" alt="">
                                 </div>
-                                <div class="col-lg-3 col-3">
+                                <div class="col-lg-3 col-md-4 col-12 d-md-block d-none">
                                     <div class="search-container ml-1">
                                     <form action="/action_page.php">
                                         <button type="submit"><img src="app-assets/images/icons/gray-search-icon.png"
@@ -202,7 +204,7 @@
                                     </form>
                                 </div>
                                 </div>
-                                <div class="margin-left-sort col-lg-6 col-5">
+                                <div class="margin-left-sort col-lg-6 col-12">
                                     <span>Sort by:</span>
                                     <span class="active">Name</span>
                                     <span>Location</span>
@@ -212,7 +214,7 @@
                             </div>
                         </div>
                         <div class="row ">
-                            <table class="table  borderless table-responsive">
+                            <table class="table  borderless table-responsive px-md-3 px-5">
                                 <thead>
                                   <tr>
                                     <th scope="col" class="pl-3">Logo</th>
