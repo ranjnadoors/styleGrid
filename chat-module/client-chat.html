@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- BEGIN: Theme CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.css">
@@ -99,14 +100,14 @@
                 <li class=" nav-item mt-5"><a href="index.html" class=""><i class="ft-home"></i><span class="menu-title"
                             data-i18n="">Home</span></a>
                 </li>
-                <li class=" nav-item"><a href="#" class="active"><i class="ft-layers active"></i><span class="menu-title"
-                            data-i18n="">Messenger</span></a>
+                <li class=" nav-item"><a href="#" class="active"><i class="ft-layers active"></i><span
+                            class="menu-title" data-i18n="">Messenger</span></a>
                 </li>
                 <li class=" nav-item"><a href="#"><i class="ft-monitor"></i><span class="menu-title"
                             data-i18n="">Shop</span></a>
                 </li>
-                <li class=" nav-item"><a href="client-grid.html" ><i class="ft-layout"></i><span
-                            class="menu-title" data-i18n="">Grids</span></a>
+                <li class=" nav-item"><a href="client-grid.html"><i class="ft-layout"></i><span class="menu-title"
+                            data-i18n="">Grids</span></a>
 
                 </li>
                 <li class=" nav-item"><a href="client-sourcing.html"><i class="ft-zap"></i><span class="menu-title"
@@ -225,10 +226,16 @@
                             <div class="row">
                                 <div class="col-md-10 col-8">
                                     <div class="d-flex justify-content-center">
-                                    <span class="dot"></span>
-                                <div class="client-name">MaxM</div></div></div>
-                                <div class="col-md-2 col-4 text-right"><img src="../chat-module/app-assets/images/gallery/icon.png" class="img-fluid" alt="">
-                                <img src="../chat-module/app-assets/images/gallery/icon1.png" class="img-fluid ml-2" alt=""></div>
+                                        <span class="dot"></span>
+                                        <div class="client-name">MaxM</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-4 text-right"><img
+                                        src="../chat-module/app-assets/images/gallery/icon.png" class="img-fluid"
+                                        alt="">
+                                    <img src="../chat-module/app-assets/images/gallery/icon1.png" class="img-fluid ml-2"
+                                        alt="">
+                                </div>
                             </div>
                             <hr class="client-hr my-2">
                             <!-----------------chat process--------->
@@ -242,8 +249,10 @@
                                     <div class="chat-client-time mr-lg-5 pr-lg-5">12:45</div>
                                 </div>
                                 <div class="row justify-content-between ml-lg-5">
-                                    <img src="../chat-module/app-assets/images/gallery/Download.png" class="img-fluid"
-                                        alt="">
+                                    <a href="../chat-module/app-assets/images/gallery/Download.png" download="w3logo">
+                                        <img src="../chat-module/app-assets/images/gallery/Download.png" class="img-fluid"
+                                            alt="">
+                                          </a>
                                 </div>
 
                                 <div class="row justify-content-between mt-2 mx-2">
@@ -261,8 +270,8 @@
                                         class="img-fluid share1" alt=""> <img
                                         src="../chat-module/app-assets/images/gallery/Zoom.png" class="zoom-image "
                                         alt="">
-                                    <img src="../chat-module/app-assets/images/gallery/share2.png" class="img-fluid mt-lg-0 mt-2"
-                                        alt="">
+                                    <img src="../chat-module/app-assets/images/gallery/share2.png"
+                                        class="img-fluid mt-lg-0 mt-2" alt="">
                                     <img src="../chat-module/app-assets/images/gallery/Zoom.png" class="zoom-image"
                                         alt="">
                                 </div>
@@ -276,10 +285,30 @@
                                     <div class="chat-client-time mr-lg-5 pr-lg-5">12:45</div>
                                 </div>
                                 <div class="row justify-content-start ml-lg-5 mt-2 ">
-                                    <img src="../chat-module/app-assets/images/gallery/Audio.png" class="img-fluid"
-                                        alt="">
+                                    <audio controls>
+                                        <source src="horse.ogg" type="audio/ogg">
+                                        <source src="horse.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                      </audio>
+                                    <!-- <img src="../chat-module/app-assets/images/gallery/Audio.png" class="img-fluid"
+                                        alt=""> -->
                                 </div>
                             </div>
+                            <!-- BEGINING OF INPUT BOTTOM -->
+                            <div class="text-muted d-flex justify-content-start align-items-center pe-3 pt-3 mt-2"
+                                id="chat-footer">
+                                <a class="" href="#"><img
+                                        src="../chat-module/app-assets/images/gallery/paperclip-solid.svg" alt=""></a>
+                                <a class="px-1" href="#"><img
+                                        src="../chat-module/app-assets/images/gallery/face-smile-solid.svg" alt=""></a>
+                                <input type="text" class="form-control form-control-lg" id="exampleFormControlInput2"
+                                    placeholder="Type message">
+                                <a class="pl-1" href="#"><img
+                                        src="../chat-module/app-assets/images/gallery/paper-plane-solid.svg" alt=""></a>
+                            </div>
+
+                            <!-- END OF INPUT BOTTOM-->
+
                         </div>
                     </div>
                 </div>
@@ -287,7 +316,7 @@
         </div>
         <!--------------------end of fulfil souring request--------->
 
-  
+
 </body>
 <!-- BEGIN: Vendor JS-->
 <script src="app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>

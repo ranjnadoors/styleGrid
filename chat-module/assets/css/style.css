@@ -320,6 +320,13 @@ color: #B8BECC;
   text-align: center;
   color: #2B2B2B;
 }
+#chat-footer img{
+  height: 15px;
+}
+#chat-footer input{
+  border: 0;
+  background: aliceblue;
+}
 
 #client-inbox-msg h6 {
   font-family: 'Silk Serif';
@@ -982,6 +989,67 @@ color: #2B2B2B;
 #cancel .modal-dialog{
   top: 25%;
 }
+/* input Bottom */
+footer{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right:0;
+  width:100%;
+  background: transparent;
+}
+
+.bottom {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height:70px;
+  width:100%;
+  margin:0;
+  overflow:hidden;
+}
+.form{
+  position:absolute;
+  width: 80%;
+}
+.sendMess{
+  border-radius:50px;
+}
+ textarea, .sendMess button{
+  max-height:100px;
+}
+.sendMess button
+{
+  border:none;
+  width:20%;
+  background-color:white;
+}
+.sendMess .attachment{
+ border-radius:15px 0px 0px 15px;
+ 
+}
+.sendMess .send{
+  border-radius:0px 15px 15px 0px;
+ }
+.sendMess textarea{
+  width:70%;
+  margin-left:-5px;
+  margin-right:-4px;
+  padding:5px;
+  border:none;
+  
+}
+textarea:focus,button:focus{
+  outline:none;
+}
+.sendMess{
+  width:90%;
+  min-height:100%;
+  margin:0 auto;
+  display:flex;
+}
+
 /********************end  client-dashboard***************8/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
