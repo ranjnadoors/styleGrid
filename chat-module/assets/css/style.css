@@ -1159,11 +1159,11 @@ textarea:focus,button:focus{
     font-size: 24px;
   }
   #client-chat .bg-warning{
-    top: 39%;
+    top: 35%;
     left: 4%;
   }
   #client-chat .bg-danger{
-    top: 46%;
+    top: 41%;
   }
  
 }
